@@ -50,6 +50,7 @@
               width="39"
               height="36"
               fill="none"
+              aria-hidden="true"
             >
               <g class="heart">
                 <path
@@ -111,6 +112,7 @@
               width="39"
               height="36"
               fill="none"
+              aria-hidden="true"
             >
               <g class="heart">
                 <path
@@ -170,6 +172,7 @@
               width="39"
               height="36"
               fill="none"
+              aria-hidden="true"
             >
               <g class="heart">
                 <path
@@ -231,6 +234,7 @@
               width="39"
               height="36"
               fill="none"
+              aria-hidden="true"
             >
               <g class="heart">
                 <path
@@ -293,6 +297,7 @@
               width="39"
               height="36"
               fill="none"
+              aria-hidden="true"
             >
               <g class="heart">
                 <path
@@ -352,6 +357,7 @@
               width="39"
               height="36"
               fill="none"
+              aria-hidden="true"
             >
               <g class="heart">
                 <path
@@ -413,6 +419,7 @@
               width="39"
               height="36"
               fill="none"
+              aria-hidden="true"
             >
               <g class="heart">
                 <path
@@ -476,6 +483,7 @@
               width="39"
               height="36"
               fill="none"
+              aria-hidden="true"
             >
               <g class="heart">
                 <path
@@ -506,31 +514,31 @@
           </button>
         </div>
       </article>
+      <div class="save-button__container">
+        <button
+          class="save-button button__effect"
+          type="button"
+          onclick="window['dialog-id'].showModal()"
+          aria-controls="dialog-id"
+        >
+          <svg class="floppy-icon" viewBox="0 0 39 39">
+            <use href="./svg/floppy.svg#floppy"></use>
+          </svg>
+          <span class="button__text">Сохранить на память</span>
+        </button>
+        <dialog class="dialog" id="dialog-id">
+          <svg class="floppy-icon" viewBox="0 0 39 39">
+            <use href="./svg/floppy.svg#floppy"></use>
+          </svg>
+          <p class="dialog__text">Вставьте дискету, чтобы продолжить</p>
+          <form class="dialog__form" method="dialog">
+            <button class="dialog__button button__effect">
+              <span class="button__text">ок</span>
+            </button>
+          </form>
+        </dialog>
+      </div>
     </main>
-    <footer class="footer">
-      <button
-        class="save-button button__effect"
-        type="button"
-        onclick="window['dialog-id'].showModal()"
-        aria-controls="dialog-id"
-      >
-        <svg class="floppy-icon" viewBox="0 0 39 39">
-          <use href="./svg/floppy.svg#floppy"></use>
-        </svg>
-        <span class="button__text">Сохранить на память</span>
-      </button>
-      <dialog class="dialog" id="dialog-id">
-        <svg class="floppy-icon" viewBox="0 0 39 39">
-          <use href="./svg/floppy.svg#floppy"></use>
-        </svg>
-        <p class="dialog__text">Вставьте дискету, чтобы продолжить</p>
-        <form class="dialog__form" method="dialog">
-          <button class="dialog__button button__effect">
-            <span class="button__text">ок</span>
-          </button>
-        </form>
-      </dialog>
-    </footer>
     <script src="./scripts/like.js"></script>
   </body>
 </html>

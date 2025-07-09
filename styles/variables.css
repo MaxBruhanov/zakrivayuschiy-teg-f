@@ -1,7 +1,7 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
   --font-main: 'inter-Variable', sans-serif;
-  --font-accent: 'Press Start 2P', sans-serif;
+  --font-accent: 'Press Start 2P', fantasy;
   --font-wght-text: 400;
   --font-wght-title: 700;
   --font-size-text: 14px;
@@ -20,7 +20,7 @@
     linear-gradient(to bottom,  
     #e7e7e7 0.01%, 
     #1a1a1a 100%);
-  --card-gap: 50px;
+  --card-gap: 51.5px;
   --like-contour-color: #000;
   --animation-fill-color: red;
 }
