@@ -261,6 +261,8 @@
 .dialog[open] .dialog__text {
   line-height: 150%;
   text-transform: uppercase;
+  font-family: var(--font-accent), sans-serif, sans-serif;
+  font-size: 14px;
 }
 
 .dialog[open] .dialog__form {
@@ -272,11 +274,6 @@
   padding-inline: 131px;
   padding-block: 7px;
   appearance: none;
-}
-
-.dialog[open] .dialog__text {
-  font-family: var(--font-accent), sans-serif, sans-serif;
-  font-size: 14px;
 }
 
 @supports (-webkit-text-stroke: 1px #fff) or (text-stroke: 1px #fff) {
